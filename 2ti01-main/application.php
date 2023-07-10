@@ -66,5 +66,11 @@
         {
             mysqli_query($this->koneksi,"UPDATE `produk` SET `id_produk`='$id_produk',`nm_produk`='$merek',`id_supplier`='$id_supplier',`deskripsi`='$deskripsi',`stok`='$stok',`id_satuan`='$id_satuan',`id_kategori`='$id_kategori' WHERE id_produk='$id'");
         }
+        public function Deleteproduk($query)
+        {
+         mysqli_query($this->koneksi,$query);
+
+        }
     }
+    
 ?>

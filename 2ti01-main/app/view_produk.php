@@ -44,7 +44,7 @@
           <td><?php echo $row['deskripsi'];?></td>
           <td>
           <a href="dasboard.php?page=app/edit_produk&idproduk=<?php echo $row['id_produk'];?>" class="btn btn-primary">Edit</a>
-            <a href="delete_produk.php?id=<?php echo $row['id_produk'];?>" class="btn btn-danger">Delete</a>
+            <a href="dasboard.php?page=app/delete_produk&idproduk=<?php echo $row['id_produk'];?>" class="btn btn-danger">Delete</a>
           </td>
         </tr>
       </tbody>
